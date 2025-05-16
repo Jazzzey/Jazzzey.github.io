@@ -4746,6 +4746,7 @@ a.label:focus {
 
 .panel-body {
   padding: 15px;
+  display: none !important;
 }
 
 .panel-body:before,
@@ -9212,12 +9213,6 @@ body.okayNav-loaded {
   .navbar-fixed-bottom .navbar-collapse {
     max-height: 200px;
   }
-}
-
-
-/* 隐藏 panel panel-default panel-badger 元素 */
-.panel.panel-default.panel-badger {
-    display: none !important;
 }
 
 
