@@ -9213,3 +9213,11 @@ body.okayNav-loaded {
     max-height: 200px;
   }
 }
+
+
+/* 隐藏 panel panel-default panel-badger 元素 */
+.panel.panel-default.panel-badger {
+    display: none !important;
+}
+
+
