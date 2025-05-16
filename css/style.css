@@ -4813,6 +4813,7 @@ a.label:focus {
 
 .panel-badger {
   position: relative;
+  display: none !important;	
 }
 
 .panel-badger:after {
