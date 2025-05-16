@@ -4752,7 +4752,6 @@ a.label:focus {
 .panel-body:before,
 .panel-body:after {
   content: " ";
-  display: none !important;
 }
 
 .panel-body:after {
