@@ -4746,7 +4746,6 @@ a.label:focus {
 
 .panel-body {
   padding: 15px;
-  display: none !important;
 }
 
 .panel-body:before,
