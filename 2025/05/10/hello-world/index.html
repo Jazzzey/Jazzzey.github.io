@@ -415,18 +415,18 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
   <script src="//cdn.jsdelivr.net/npm/valine"></script>
   <script type="text/javascript">
   var GUEST = ['nick', 'mail', 'link'];
-  var meta = 'nick,mail,link';
+  var meta = 'nick';
   meta = meta.split(',').filter(function(item) {
     return GUEST.indexOf(item) > -1;
   });
   new Valine({
     el: '#vcomments',
-    verify: true,
+    verify: ,
     notify: false,
     appId: 'bHU19CpZ8sd9i495Tk0nuarn-gzGzoHsz',
     appKey: 'zXx9MyEqPWmhfGCR3UCIT2i7',
     placeholder: '',
-    avatar: 'mm',
+    avatar: 'robohash',
     meta: meta,
     pageSize: '10' || 10,
     visitor: true
